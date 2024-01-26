@@ -1,6 +1,6 @@
 # Splitter_Merger-using-java
-<hr>
-<h4>INTRODUCTION </h4>
+
+<h4><u>INTRODUCTION  </u></h4>
 <p>File splitter basically used to split the large files which are not possible to upload or download, when we 
 have to file size restrictions imposed by the application. For example, if we need to upload a file say 30 
 MB using Gmail, than it might not be possible as Gmail restrict the file size less than 30MB, so if we use 
@@ -10,7 +10,7 @@ file (can be audio, video, text, etc). Using our tool, which is a windows applic
 size for each segment, than need to split the original file. On joining he/she need to select the first and 
 should click on join to get the original file </p>
 <hr>
-<h4> Technology used</h4>
+<h4><u>Technology used </u></h4>
 <ul>
   The Logical or Virtual equipment of a system is called Software and the following equipment required for our project so that our project run efficiently: 
   <li>Platform :Window7/10/11 </li>
@@ -21,13 +21,13 @@ should click on join to get the original file </p>
 </ul>
 
 
-<h5>Proposed system</h5>
+<h5><u> Proposed system</u></h5>
  <p>In the proposed system, splitting of file will be for all types of files like text, document, image, 
 audio, video, pdf, etc. The advantage of splitting the file is that, we can upload or download the spitted 
 file easily, when there is a restriction in size of the file to be
 uploaded or downloaded. </p>
 
-<h5>Overall description </h5>
+<h5><u>Overall description </u> </h5>
  <p> By using our tool file splitter one can easily split the file into smaller segments, which in turn can 
 be joined to retrieve the original file. Will have three modules one for segmentation, other for spitted the 
 file into segments and other for joining the spitted parts to obtain the original file. In the segmentation we 
@@ -36,17 +36,16 @@ using split we can divide the file into required segments and than can join the 
 original file.  </p>
 
 
-<h5>PROBLEM DEFINITION AND SCOPE OF THE PROJECT</h5> 
+<h5><u>PROBLEM DEFINITION AND SCOPE OF THE PROJECT </u></h5> 
 <ol>
  <li>Purpose </li>
-<ul>
+
   
-<li> The purpose of developing our tool is to splits the larger files which can't be uploaded or 
+ The purpose of developing our tool is to splits the larger files which can't be uploaded or 
 downloaded using some application like Gmail, yahoo mail, etc as per file size restrictions 
 imposed by this application. In order to support larger file uploads and downloads we will use our 
-tool, using which one can easily upload or download splitted files. </li>
+tool, using which one can easily upload or download splitted files. 
 
-</ul>
 
 <li> Scope</li>
 
