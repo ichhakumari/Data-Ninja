@@ -46,7 +46,7 @@ File src;
 
 public EasySplitter()
 {
-super("Splitter_Merger - Powered by Ichha & Varsha");
+super("Splitter_Merger - Powered by Ichha ");
 Container c=getContentPane();
 tp=new JTabbedPane();
 tp.setTabPlacement(JTabbedPane.TOP);
@@ -622,7 +622,7 @@ boolean bx=true;
 if(ctr==0)
 JOptionPane.showMessageDialog((Container)null,"No source file is selected","Splitter 1.7.0",JOptionPane.OK_OPTION);
 else if(tf1.getText().equals(""))
-JOptionPane.showMessageDialog((Container)null,"No split folder is entered","Splitter_Merger",JOptionPane.OK_OPTION);
+JOptionPane.showMessageDialog((Container)null,"No split folder is entered","Data Ninja",JOptionPane.OK_OPTION);
 else
 {
 String dst=tf1.getText();
@@ -651,11 +651,11 @@ if(res==0)
 bx=false;
 }
 if(bx)
-JOptionPane.showMessageDialog((Container)null,"Splitted Successfully!","Splitter_Merger",JOptionPane.OK_OPTION);
+JOptionPane.showMessageDialog((Container)null,"Splitted Successfully!","Data Ninja",JOptionPane.OK_OPTION);
 else
 JOptionPane.showMessageDialog((Container)null,"Splitter encounters some errors!  Only Correct files if any are Splitted Successfully!","EasySplitter_Merger",JOptionPane.OK_OPTION);
 }catch(Exception ef){
-JOptionPane.showMessageDialog((Container)null,"Destination folder is not entered properly","Splitter _Merger",JOptionPane.OK_OPTION);
+JOptionPane.showMessageDialog((Container)null,"Destination folder is not entered properly","Data Ninja",JOptionPane.OK_OPTION);
 }
 
 }
@@ -694,11 +694,11 @@ else if(e.getSource()==b10)
 {
 boolean delkey=false;
 if(tf4.getText().equals(""))
-JOptionPane.showMessageDialog((Container)null,"No split file is entered","Splitter_Merger",JOptionPane.OK_OPTION);
+JOptionPane.showMessageDialog((Container)null,"No split file is entered","Data Ninja",JOptionPane.OK_OPTION);
 else if(!(new File(tf4.getText()).exists()))
-JOptionPane.showMessageDialog((Container)null,"Split file you specified not found or not correct!","Splitter _Merger",JOptionPane.OK_OPTION);
+JOptionPane.showMessageDialog((Container)null,"Split file you specified not found or not correct!","Data Ninja",JOptionPane.OK_OPTION);
 else if(tf5.getText().equals(""))
-JOptionPane.showMessageDialog((Container)null,"Merge folder should be entered","Splitter _Merger",JOptionPane.OK_OPTION);
+JOptionPane.showMessageDialog((Container)null,"Merge folder should be entered","Data Ninja",JOptionPane.OK_OPTION);
 else
 {
 File f=new File(tf5.getText());
@@ -710,7 +710,7 @@ merge(tf4.getText(),tf5.getText(),delkey);
 }
 catch(Exception ex)
 {
-JOptionPane.showMessageDialog((Container)null,"Error occured in merging: Not merged","Splitter _Merger",JOptionPane.OK_OPTION);
+JOptionPane.showMessageDialog((Container)null,"Error occured in merging: Not merged","Data Ninja",JOptionPane.OK_OPTION);
 }
 }
 }
@@ -725,7 +725,7 @@ try
 String cname=getName((new File(tf4.getText())).getName(),-1);
 File flc=new File(new File(tf4.getText()).getParent()+"/"+cname);
 if (!flc.exists())
-JOptionPane.showMessageDialog((Container)null,"Comment File not found!","Splitter_Merger",JOptionPane.OK_OPTION);
+JOptionPane.showMessageDialog((Container)null,"Comment File not found!","Data Ninja",JOptionPane.OK_OPTION);
 else
 {
 FileReader frc=new FileReader(flc);
@@ -735,7 +735,7 @@ while((data=brc.readLine())!=null)
 ta2.setText(ta2.getText()+data);
 }
 }catch(Exception ex2){
-JOptionPane.showMessageDialog((Container)null,"Unreadable error!","Splitter_Merger",JOptionPane.OK_OPTION);
+JOptionPane.showMessageDialog((Container)null,"Unreadable error!","Data Ninja",JOptionPane.OK_OPTION);
 }
 }
 else if(e.getSource()==b13)
@@ -744,11 +744,11 @@ try
 {
 if (tf4.getText().equals(""))
 {
-JOptionPane.showMessageDialog((Container)null,"No split file specified!","Splitter_Merger",JOptionPane.OK_OPTION);
+JOptionPane.showMessageDialog((Container)null,"No split file specified!","Data Ninja",JOptionPane.OK_OPTION);
 }
 else if(!(new File(tf4.getText()).exists()))
 {
-JOptionPane.showMessageDialog((Container)null,"Split file you specified not found or not correct!","Splitter _Merger",JOptionPane.OK_OPTION);
+JOptionPane.showMessageDialog((Container)null,"Split file you specified not found or not correct!","Data Ninja",JOptionPane.OK_OPTION);
 }
 else
 {
@@ -760,7 +760,7 @@ StringTokenizer st1=new StringTokenizer(l1,",");
 String beg=st1.nextToken();
 if(!(beg.equals("jfs")))
 {
-JOptionPane.showMessageDialog((Container)null,"Not a valid split file!","Splitter_Merger",JOptionPane.OK_OPTION);
+JOptionPane.showMessageDialog((Container)null,"Not a valid split file!","Data Ninja",JOptionPane.OK_OPTION);
 }
 else
 {
@@ -794,7 +794,7 @@ l14.setText("Have Batchfile  : "+bf);
 }
 catch(Exception ex1)
 {
-JOptionPane.showMessageDialog((Container)null,"Unexpected Error","Splitter_Merger",JOptionPane.OK_OPTION);
+JOptionPane.showMessageDialog((Container)null,"Unexpected Error","Data Ninja",JOptionPane.OK_OPTION);
 clearlab();
 }
 
@@ -836,14 +836,14 @@ sz.show();
 else if(e.getSource()==b18)
 {
 if(tf6.getText().equals(""))
-JOptionPane.showMessageDialog((Container)null,"Default split folder is not empty","Splitter_Merger",JOptionPane.OK_OPTION);
+JOptionPane.showMessageDialog((Container)null,"Default split folder is not empty","Data Ninja",JOptionPane.OK_OPTION);
 else if(tf7.getText().equals(""))
-JOptionPane.showMessageDialog((Container)null,"Default merge folder is not empty","Splitter_Merger",JOptionPane.OK_OPTION);
+JOptionPane.showMessageDialog((Container)null,"Default merge folder is not empty","Data Ninja",JOptionPane.OK_OPTION);
 else
 {
 setConfig();
 getConfig();
-JOptionPane.showMessageDialog((Container)null,"Default values saved!","Splitter_Merger",JOptionPane.OK_OPTION);
+JOptionPane.showMessageDialog((Container)null,"Default values saved!","Data Ninja",JOptionPane.OK_OPTION);
 }
 }
 else if(e.getSource()==b19)
@@ -1104,7 +1104,7 @@ fr1.close();
 }
 catch(Exception eg)
 {
-JOptionPane.showMessageDialog((Container)null,"Error while executing the Configuration File!!\n No default values assumed!!\n Reason : "+eg.getMessage(),"Splitter_Merger",JOptionPane.OK_OPTION);
+JOptionPane.showMessageDialog((Container)null,"Error while executing the Configuration File!!\n No default values assumed!!\n Reason : "+eg.getMessage(),"Data Ninja",JOptionPane.OK_OPTION);
 }
 }
 
@@ -1130,7 +1130,7 @@ try
    }
    catch(Exception eg)
    {
-      JOptionPane.showMessageDialog((Container)null,"Error while writing defaults to the Configuration File!!\nReason : "+eg.getMessage(),"Splitter_Merger",JOptionPane.OK_OPTION);    
+      JOptionPane.showMessageDialog((Container)null,"Error while writing defaults to the Configuration File!!\nReason : "+eg.getMessage(),"Data Ninja",JOptionPane.OK_OPTION);    
    }
  }
 
@@ -1154,7 +1154,7 @@ try
     }
     else
     {
-      JOptionPane.showMessageDialog((Container)null,"File not found","Splitter_Merger",JOptionPane.OK_OPTION);
+      JOptionPane.showMessageDialog((Container)null,"File not found","Data Ninja",JOptionPane.OK_OPTION);
       return 0;
     }
     try{
@@ -1254,7 +1254,7 @@ try
     if(!batch) bf.delete();
     if(del) fl.delete();
     }catch(Exception e){
-      JOptionPane.showMessageDialog((Container)null,"Some internal error: Cannot split "+name+"\nReason: "+e.getMessage(),"Splitter _Merger",JOptionPane.OK_OPTION);
+      JOptionPane.showMessageDialog((Container)null,"Some internal error: Cannot split "+name+"\nReason: "+e.getMessage(),"Data Ninja",JOptionPane.OK_OPTION);
       return 0;
     }
    
@@ -1275,7 +1275,7 @@ try
       String beg=st1.nextToken();
       if(!(beg.equals("jfs")))
       {
-        JOptionPane.showMessageDialog((Container)null,"Not a valid split file!","Splitter_Merger",JOptionPane.OK_OPTION);
+        JOptionPane.showMessageDialog((Container)null,"Not a valid split file!","Data Ninja",JOptionPane.OK_OPTION);
         return 1;
       }
       String oname=st1.nextToken();
@@ -1325,7 +1325,7 @@ try
       }
     }catch(Exception e){}
    
-    JOptionPane.showMessageDialog((Container)null,"Merged successfully!","Splitter_Merger",JOptionPane.OK_OPTION);
+    JOptionPane.showMessageDialog((Container)null,"Merged successfully!","Data Ninja",JOptionPane.OK_OPTION);
     return 1;
   }
 
@@ -1375,7 +1375,7 @@ try
     JPanel p;
     help()
     {
-      super("Help - Splitter_Merger");
+      super("Help - Data Ninja");
       ep=new JEditorPane();
       ep.setEditable(false);
      
@@ -1413,7 +1413,7 @@ try
       }
       catch(Exception e)
       {
-        JOptionPane.showMessageDialog((Container)null,"Unable to locate the help file!!","Splitter_Merger",JOptionPane.OK_OPTION);        
+        JOptionPane.showMessageDialog((Container)null,"Unable to locate the help file!!","Data Ninja",JOptionPane.OK_OPTION);        
       }
     }
    
@@ -1424,7 +1424,7 @@ try
        ep.setPage(url);
      }
      catch(IOException ex2){
-     JOptionPane.showMessageDialog((Container)null,"Unable to locate the help file!!","EasySplitter_Merger",JOptionPane.OK_OPTION);        
+     JOptionPane.showMessageDialog((Container)null,"Unable to locate the help file!!","Data Ninja",JOptionPane.OK_OPTION);        
      }
     }
  
@@ -1441,10 +1441,10 @@ try
 
      about()
      {
-       super("About Splitter_Merger");
-       la1=new JLabel("  Name : Splitter_Merger");
+       super("About Data Ninja");
+       la1=new JLabel("  Name : Data Ninja");
        
-       la3=new JLabel("  Developed by :Ichha & Varsha");
+       la3=new JLabel("  Developed by :Ichha ");
        la4=new JLabel(" Vivekananda Institute(VIPS_TC)");
      
        img=new JLabel(new ImageIcon("img.jpg"));
@@ -1611,7 +1611,7 @@ try
            msize=(int)(Float.parseFloat(stf2.getText())*1024*1024);
         }
         }catch(Exception e)
-        { JOptionPane.showMessageDialog((Container)null,stf2.getText()+" : This is not a valid size","Splitter _Merger",JOptionPane.OK_OPTION);}
+        { JOptionPane.showMessageDialog((Container)null,stf2.getText()+" : This is not a valid size","Data Ninja",JOptionPane.OK_OPTION);}
        
 
        }
