@@ -1,7 +1,7 @@
-# Splitter_Merger-using-java
+# DATA-NInja
 
 <h4><u>INTRODUCTION  </u></h4>
-<p>File splitter basically used to split the large files which are not possible to upload or download, when we 
+<p>Data Ninja basically used to split the large files which are not possible to upload or download, when we 
 have to file size restrictions imposed by the application. For example, if we need to upload a file say 30 
 MB using Gmail, than it might not be possible as Gmail restrict the file size less than 30MB, so if we use 
 our tool we can split the file and send the splitted parts by uploading it and can retain the original file by 
@@ -28,7 +28,7 @@ file easily, when there is a restriction in size of the file to be
 uploaded or downloaded. </p>
 
 <h5><u>Overall description </u> </h5>
- <p> By using our tool file splitter one can easily split the file into smaller segments, which in turn can 
+ <p> By using our tool Data Ninja one can easily split the file into smaller segments, which in turn can 
 be joined to retrieve the original file. Will have three modules one for segmentation, other for spitted the 
 file into segments and other for joining the spitted parts to obtain the original file. In the segmentation we 
 need to decide the how many segments we need to have for a file, and will have split and join option, 
@@ -61,7 +61,7 @@ will be in non-readable format and parts can be joined back to get the original 
 
 <li> OBJECTIVE: </li>
 <ul>
- <li>Security Objectives are the main concerns for any data and organization regarding their any types 
+ <li><b>Security Objectives </b>are the main concerns for any data and organization regarding their any types 
 of data either they are audio, video, text and other format. So targets the customer establishes for 
 their security program of any types of information. </li>
 <li> Without security objectives, they do not know what they are trying to accomplish for security 
@@ -75,6 +75,7 @@ involvement, and so the assessment team cannot make up the information.</li>
 <ul>
 <li> Our project assists to the users in splitting the larger files into smaller splitted files, which can
 easily be uploaded or downloaded.</li> 
+  <li> Encryption</li>
 <li> Our project or tool is more user friendly, and can be used easily for file splitting and joining and 
 our tool can be used for splitting of video files, audio files, files which may not available in 
 existing system.</li>
