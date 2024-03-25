@@ -1,5 +1,5 @@
 # DATA-NInja
-
+<img src="https://github.com/ichhakumari/Data-Ninja/blob/main/split_tab.png" >
 <h4><u>INTRODUCTION  </u></h4>
 <p>Data Ninja basically used to split the large files which are not possible to upload or download, when we 
 have to file size restrictions imposed by the application. For example, if we need to upload a file say 30 
