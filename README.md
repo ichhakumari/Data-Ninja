@@ -82,8 +82,12 @@ existing system.</li>
 <li>Security</li>
 </ul>
 </ol>
+<h3>Home Tab</h3>
+<img src="https://github.com/ichhakumari/Data-Ninja/blob/main/output_1.png">
 <h3> Split Tab</h3>
 <img src="https://github.com/ichhakumari/Data-Ninja/blob/main/split_tab.png">
+<h3>Encrypted Splitted Files</h3>
+
 <h3> Merge Tab</h3>
 <img src="https://github.com/ichhakumari/Data-Ninja/blob/main/merge_tab.png">
 
