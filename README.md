@@ -82,3 +82,5 @@ existing system.</li>
 <li>Security</li>
 </ul>
 </ol>
+<h3> Split tab</h3>
+<img src="https://github.com/ichhakumari/Data-Ninja/blob/main/split_tab.png">
