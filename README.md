@@ -10,6 +10,17 @@ file (can be audio, video, text, etc). Using our tool, which is a windows applic
 size for each segment, than need to split the original file. On joining he/she need to select the first and 
 should click on join to get the original file </p>
 <hr>
+<h4> Applications:</h4>
+<ul>
+<li>  File Sharing with Size Restrictions: As you mentioned, email services like Gmail often have file size limits. Data Ninja allows you to split large files into smaller chunks that can be uploaded within these restrictions. The recipient can then join the parts back together to get the original file. </li>
+
+<li>Data Backups: When backing up data to external drives or online storage, splitting large files can be useful for managing storage space and transfer times. Data Ninja can help you efficiently back up large files by splitting them into manageable pieces. </li>
+<li>Large File Transfers: Transferring very large files over a network can be slow and error-prone. Splitting the file with Data Ninja can improve transfer speeds and reduce the risk of errors during transmission.</li>
+<li> Encrypt your splitted data</li>
+<li> Maintain Data Integrity</li>
+<li> Prevent from stealing your data </li>
+
+</ul>
 <h4><u>Technology used </u></h4>
 <ul>
   The Logical or Virtual equipment of a system is called Software and the following equipment required for our project so that our project run efficiently: 
