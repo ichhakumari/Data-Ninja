@@ -1,14 +1,20 @@
 # DATA-NINJA
 <img src="https://github.com/ichhakumari/Data-Ninja/blob/main/split_tab.png" >
 <h4><u>INTRODUCTION  </u></h4>
-<p>Data Ninja basically used to split the large files which are not possible to upload or download, when we 
-have to file size restrictions imposed by the application. For example, if we need to upload a file say 30 
-MB using Gmail, than it might not be possible as Gmail restrict the file size less than 30MB, so if we use 
-our tool we can split the file and send the splitted parts by uploading it and can retain the original file by 
-joining the splitted parts Likewise we can use our application in other fields as well; where we need the 
-file (can be audio, video, text, etc). Using our tool, which is a windows application, one need to decide 
-size for each segment, than need to split the original file. On joining he/she need to select the first and 
-should click on join to get the original file </p>
+<p>
+
+Transferring large files to removable media can often be a nightmare due to size restrictions and security concerns. We've all faced the frustration of large files not fitting on our devices. Enter Data Ninja, a Java-based tool designed to address these issues head-on.</p>
+<p>
+Data Ninja seamlessly splits your files into manageable fragments, each protected by robust encryption. This means no more struggling with error messages or insecure transfers. It offers multiple functionalities:</p>
+
+<li>Efficient File Splitting: Automatically adapts to different storage capacities.</li>
+
+<li> Robust Encryption: Ensures your data is safe from unauthorized access.</li>
+<li>Seamless Merging: Easily recombine the fragments on your destination machine.</li>
+<p>
+Data Ninja saves time, reduces frustration, and most importantly, secures your data. It's the perfect tool for students, professionals, and anyone who needs to share large files securely and conveniently.</p>
+<p>
+I encourage you to explore Data Ninja further and experience the power of secure, efficient file distribution.</p>
 <hr>
 <h4> Applications:</h4>
 <ul>
