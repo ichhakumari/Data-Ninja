@@ -54,27 +54,6 @@ original file.  </p>
 
 
 <h5><u>PROBLEM DEFINITION AND SCOPE OF THE PROJECT </u></h5> 
-<ol>
- <li>Purpose </li>
-
-  
- The purpose of developing our tool is to splits the larger files which can't be uploaded or 
-downloaded using some application like Gmail, yahoo mail, etc as per file size restrictions 
-imposed by this application. In order to support larger file uploads and downloads we will use our 
-tool, using which one can easily upload or download splitted files. 
-
-
-<li> Scope</li>
-
-We can use our application or tool to split the files types such as audio, video, text,
-etc. so that splitted files can be uploaded or downloaded easily.
-
-<li> Goals:</li>
-The main aim of the project is to design software for splitting of any type of files into segments and 
-reassembling them. The project provides compression of file before splitting and compressed file is 
-used for splitting. In already existing software they provide only some file types. We design software 
-to split all types of files like text, document, image, audio, video, pdf etc. The files splitted portion 
-will be in non-readable format and parts can be joined back to get the original file. 
 
 <li> OBJECTIVE: </li>
 <ul>
