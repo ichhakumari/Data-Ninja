@@ -10,7 +10,7 @@ Data Ninja seamlessly splits your files into manageable fragments, each protecte
 <li>Efficient File Splitting: Automatically adapts to different storage capacities.</li>
 
 <li> Robust Encryption: Ensures your data is safe from unauthorized access.</li>
-<li>Seamless Merging: Easily recombine the fragments on your destination machine.</li>
+<li>Seamless Merging: Easily recombine the fragments on your destination machine.</li><br>
 <p>
 Data Ninja saves time, reduces frustration, and most importantly, secures your data. It's the perfect tool for students, professionals, and anyone who needs to share large files securely and conveniently.</p>
 <p>
