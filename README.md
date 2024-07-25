@@ -40,13 +40,13 @@ I encourage you to explore Data Ninja further and experience the power of secure
 
 <hr>
 
-<h5><u> Proposed system</u></h5>
+<h4> Proposed system</h4>
  <p>In the proposed system, splitting of file will be for all types of files like text, document, image, 
 audio, video, pdf, etc. The advantage of splitting the file is that, we can upload or download the spitted 
 file easily, when there is a restriction in size of the file to be
 uploaded or downloaded. </p>
 
-<h5><u>Overall description </u> </h5>
+<h4><u>Overall description </u> </h4>
  <p> By using our tool Data Ninja one can easily split the file into smaller segments, which in turn can 
 be joined to retrieve the original file. Will have three modules one for segmentation, other for spitted the 
 file into segments and other for joining the spitted parts to obtain the original file. In the segmentation we 
@@ -55,7 +55,7 @@ using split we can divide the file into required segments and than can join the 
 original file.  </p>
 <hr>
 
-<h5><u>PROBLEM DEFINITION AND SCOPE OF THE PROJECT </u></h5> 
+<h4><u>PROBLEM DEFINITION AND SCOPE OF THE PROJECT </u></h4> 
 
 <li> OBJECTIVE: </li>
 <ul>
@@ -68,6 +68,7 @@ regarding this project and therefore will not reach any goals. </li>
 format of the file too and may leak the information. One of those areas requiring the customer's 
 involvement, and so the assessment team cannot make up the information.</li> 
 </ul>
+<hr>
 
 <li> Features of our project (Advantages)</li>
 <ul>
@@ -80,6 +81,7 @@ existing system.</li>
 <li>Security</li>
 </ul>
 </ol>
+<hr>
 <h3>Home Tab</h3>
 <img src="https://github.com/ichhakumari/Data-Ninja/blob/main/output_1.png">
 <h3> Split Tab</h3>
