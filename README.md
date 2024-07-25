@@ -25,8 +25,9 @@ I encourage you to explore Data Ninja further and experience the power of secure
 <li> Encrypt your splitted data</li>
 <li> Maintain Data Integrity</li>
 <li> Prevent from stealing your data </li>
-
 </ul>
+<hr>
+
 <h4><u>Technology used </u></h4>
 <ul>
   The Logical or Virtual equipment of a system is called Software and the following equipment required for our project so that our project run efficiently: 
@@ -37,6 +38,7 @@ I encourage you to explore Data Ninja further and experience the power of secure
         application   </li>
 </ul>
 
+<hr>
 
 <h5><u> Proposed system</u></h5>
  <p>In the proposed system, splitting of file will be for all types of files like text, document, image, 
@@ -51,7 +53,7 @@ file into segments and other for joining the spitted parts to obtain the origina
 need to decide the how many segments we need to have for a file, and will have split and join option, 
 using split we can divide the file into required segments and than can join the segments to obtain the 
 original file.  </p>
-
+<hr>
 
 <h5><u>PROBLEM DEFINITION AND SCOPE OF THE PROJECT </u></h5> 
 
